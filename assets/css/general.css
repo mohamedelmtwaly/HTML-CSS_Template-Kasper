@@ -1,0 +1,95 @@
+/***********************/
+  /* VARIABLES CSS */
+/***********************/
+:root{
+  /*========== color ==========*/
+  --main-color: #19c8fa;
+  --transparent-color: rgb(15 116 143 / 70%);
+  /*========== typography ==========*/
+  --font-primary: "Open Sans" , sans-serif;
+  /*========== spacing ========== */
+  --section-spacing: 6.25rem;
+}
+/***********************/
+/* BASE */
+/***********************/
+*,
+*::after ,
+*::before{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+  line-height: 1.15;
+}
+body{
+  font-family: var(--font-primary);
+  font-size: 16px;
+}
+/**************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************/
+/*==========LIST STYLE==========*/
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* LINK STYLE */
+a{
+  color:  #fff;
+  text-decoration: none;
+}
+/* ==========CONTAINER========== */
+.container{
+  padding: 0 0.9375rem;
+  margin: 0 auto;
+}
+/* ==========SECTION HEADING========== */
+.main-heading{
+  text-align: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.main-heading .heading{
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+  position: relative;
+}
+.main-heading .heading::before{
+  content: "";
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+
+}
+.main-heading .heading::after{
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background-color: white;
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.main-heading .description{
+  font-size: 16px;
+  color: #777;
+  line-height: 32px;
+  max-width: 500px;
+}

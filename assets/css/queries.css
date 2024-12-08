@@ -1,0 +1,160 @@
+@import url("style.css");
+@import url("general.css");
+/* MD SCREEN */
+@media (min-width: 768px) {
+  /* GENERAL REUSABLE COMPONENTS */
+  .container {
+    width: 750px;
+  }
+  /* HEADER */
+  .main-nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .main-nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .main-nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 40px 10px;
+    transition: all 0.3s;
+    transition: 0.3s;
+    position: relative;
+    border-bottom: 1px solid transparent;
+  }
+  .menu-icon {
+    display: none;
+  }
+  /* LANDING SECTION */
+  .content {
+    width: 50%;
+  }
+  .change-background {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .fa-angle-left {
+    left: 30px;
+  }
+  .fa-angle-right {
+    right: 30px;
+  }
+  .bullets {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bullets li {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+  .bullets .active {
+    background-color: var(--main-color);
+  }
+  /*SERVICES SECTION */
+  .service-card .inner-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .card-icon {
+    margin-right: 30px;
+  }
+  /* ABOUT SECTION */
+  .about-img {
+    position: relative;
+    bottom: -180px;
+    margin-top: -110px;
+    max-width: 100%;
+  }
+  /* STATS SECTION */
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .stats-item {
+    width: 50%;
+  }
+  /* SKILLS SECTION */
+  .content-testim {
+    display: flex;
+    text-align: center;
+    column-gap: 30px;
+  }
+  /* SKILLS SECTION */
+
+  /* PRICING SECTION */
+  /* SUBSCRIBE SECTION */
+  .section-subscribe .container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .section-subscribe p {
+    line-height: 2;
+    margin: 0 0 0 20px;
+  }
+  /* CONTACT US SECTION */
+  .content-contact{
+    display: flex;
+  }
+  .section-contact .info{
+    order: 1;
+    flex-basis: 25%;
+    
+  }
+  .section-contact form{
+    flex-basis: 75%;
+  }
+
+}
+/* LG SCREEN */
+@media (min-width: 1024px) {
+  /* GENERAL REUSABLE COMPONENTS */
+  .container {
+    width: 970px;
+  }
+  /*SERVICES SECTION */
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .service-card {
+    width: calc(100% / 2);
+    padding: 10px;
+  }
+  /* STATS SECTION */
+  .stats-item {
+    width: calc(100% / 4);
+  }
+  /* SKILLS SECTION */
+  .section-skills .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-skills .container > div {
+    flex-basis: 45%;
+  }
+  /* PRICING SECTION */
+}
+/* XL SCREEN */
+@media (min-width: 1280px) {
+  /* GENERAL REUSABLE COMPONENTS */
+  .container {
+    width: 1170px;
+  }
+  /* PRICING SECTION */
+}
+/* XXL SCREEN */
+@media (min-width: 1536px) {
+}

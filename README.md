@@ -1,6 +1,6 @@
 #  Awesome HTML & CSS Template
 ##  Live Demo 🔗 : https://mohamedelmtwaly.github.io/HTML-CSS_Template-Kasper/
-![Project Banner](banner.PNG)
+![Project Banner](template.PNG)
 ## 🚀 Features
 
 - **Fully Responsive**: The template is optimized for all screen sizes (desktop, tablet, mobile).
